@@ -1,0 +1,26 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Airflow logs and metadata
+logs/
+# data/
+# models/
+# results/
+
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment variables
+.env
+
+# Ignore Docker-related files
+docker-compose.override.yml
